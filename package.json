@@ -1,0 +1,31 @@
+{
+  "name": "paper-scribe-skill",
+  "version": "0.1.0",
+  "description": "Community npx installer for the paper-scribe Claude skill.",
+  "bin": {
+    "paper-scribe-skill": "./bin/install.cjs"
+  },
+  "files": [
+    "bin/install.cjs",
+    "skill/SKILL.md",
+    "skill/scripts/**",
+    "skill/references/**",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "ocr",
+    "docx",
+    "markdown"
+  ],
+  "author": "wylu1037",
+  "license": "UNLICENSED"
+}
